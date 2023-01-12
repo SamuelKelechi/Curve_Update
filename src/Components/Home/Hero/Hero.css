@@ -1,0 +1,152 @@
+.HeroContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ECAE6;
+    font-weight: 500;
+}
+
+.Bottom{
+    min-height: 480px;
+    width: 100%;
+    background-color: #023047;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BottomWrap{
+    width: 90%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeroLeft{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HeroRight{
+    width: 45%;
+    height: 100%;
+}
+
+.HeroRight2{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .BottomWrap{
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .Bottom{
+        justify-content: center;
+    }
+    .HeroRight{
+       display: none;
+    }
+    .HeroRight2{
+        display: block;
+        width: 120px;
+        height: 57%;
+        padding-bottom: 10px;
+    }
+    .HeroLeft{
+        width: 65%;
+    }
+    .BottomWrap{
+        padding: 0;
+        padding-bottom: 15px;
+        width: 88%;
+    }
+}
+
+.HeroText{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.free{
+    color: #FFB703;
+}
+
+.HeroPara{
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.HeroBtn{
+    height: 45px;
+    width: 220px;
+    margin-top: 25px;
+    background-color: #FFB703;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.HeroLinkr{
+    width: 220px;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 425px){
+    .Hero1{
+        font-size: 13px;
+    }
+    .HeroText{
+        font-size: 30px;
+        width: 250px;
+        min-height: 250px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.3;
+    }
+    .HeroRight2{
+        width: 40%;
+    }
+    .HeroPara{
+        font-size: 16px;
+        width: 300px;
+        margin: 0;
+    }
+    .HeroBtn{
+        width: 310px;
+    }
+    .HeroLinkr{
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .HeroPara{
+        width: 280px;
+    }
+    .HeroBtn{
+        width: 270px;
+    }
+    .HeroLinkr{
+        width: 270px;
+    }
+}
+
+
