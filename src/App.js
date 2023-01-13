@@ -3,7 +3,7 @@ import ScrollToTop from './ScrollToTop';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home'
-import Registration from './Components/Registration/Registration';
+// import Registration from './Components/Registration/Registration';
 import Applicants from './Components/Applicants/Applicants';
 import Details from './Components/Applicants/Details';
 import Success from './Components/Feedback/Success';
@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='/registration' element={}/> */}
+        {/* <Route path='/registration' element={<Registration/>}/> */}
         <Route path='/success' element={<Success />} />
         <Route path='/cynthia1' element={<Applicants />} />
         <Route path='/cynthia2' element={<Send />} />
