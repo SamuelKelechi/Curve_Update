@@ -70,7 +70,7 @@ function Package() {
         </div>
 
         <div className='PackBtnHold'>
-            <button onClick={handleOpen} className='PackBtn'>Apply Now!</button>
+        <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank' className='MobileLink'><button className='PackBtn'>Apply Now!</button></a>
         </div>
         <>
             <Modal

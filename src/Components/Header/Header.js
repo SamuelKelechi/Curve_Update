@@ -69,7 +69,7 @@ function Header() {
                 </>
                 <div className='Buttons'>
                     <a href='https://join.slack.com/t/thecurveafrica/shared_invite/zt-1etfl6ukx-IXKNy9N26lMQj7YT3OZGLw' target='blank' style={{textDecoration:'none', color:'inherit'}}><button className='HeaderBtn1'>Join our community</button></a>
-                    <button className='HeaderBtn2' onClick={handleOpen}>Register for Free!</button>
+                    <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>
             </div>
         </section>
