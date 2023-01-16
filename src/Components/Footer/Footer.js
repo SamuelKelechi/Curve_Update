@@ -48,7 +48,7 @@ function Footer() {
                 </div>
 
                 <div className='FooterBtnContain'>
-                   <button onClick={handleOpen} className='FooterBtn'>Apply Now!</button>
+                <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='FooterBtn'>Apply Now!</button></a>
                 </div>
             </div>
 

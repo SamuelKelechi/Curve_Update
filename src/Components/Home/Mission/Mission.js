@@ -35,7 +35,7 @@ function Mission() {
                     <br/>
                     At The Curve we ensure that after the completion of 5 months intensive training and six months internship, our trainee are fully equipped with knowledge required for their future careers.
                 </p>
-                <button onClick={handleOpen} className='MissionBtn'>Join cohort 2.0</button>
+                <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank' className='MobileLink'> <button className='MissionBtn'>Join cohort 2.0</button></a>
             </div>
                         <>
                             <Modal

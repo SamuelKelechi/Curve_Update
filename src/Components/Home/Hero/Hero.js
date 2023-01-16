@@ -20,7 +20,7 @@ function Hero() {
     <>
         <section className='HeroContainer'>
             <div className='Hero1'>
-                {/* Registration for The Curve cohort 1.0 is now open! */}
+                Registration for The Curve cohort 2.0 is now open!
             </div>
             <div className='Bottom'>
                 <div className='BottomWrap'>
@@ -34,7 +34,7 @@ function Hero() {
                             build amazing portfolio and you might have the opportunity for an internship on completion,
                             all for free!
                         </p>
-                        <button onClick={handleOpen} className='HeroBtn'>Apply Now!</button>
+                        <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeroBtn'>Apply Now!</button></a>
                         <>
                             <Modal
                                 open={open}
