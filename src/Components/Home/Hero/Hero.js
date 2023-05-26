@@ -19,9 +19,9 @@ function Hero() {
   return (
     <>
         <section className='HeroContainer'>
-            <div className='Hero1'>
+            {/* <div className='Hero1'>
                 Registration for The Curve cohort 2.0 is now open!
-            </div>
+            </div> */}
             <div className='Bottom'>
                 <div className='BottomWrap'>
                     <div className='HeroLeft'>

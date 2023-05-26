@@ -30,7 +30,7 @@ function Mission() {
                     <img src={Bulb} alt='Bulb' className='Bulb'/>
                 </div>
                 <p className='MissionPara'>
-                    To equip Africans with a strong foundation in different Tech related fields to solve real-world problems. We are on a mission to train over 5,000 youths on Tech across Africa in 10 years.
+                    To equip Africans with a strong foundation in different Tech related fields to solve real-world problems. We are on a mission to train over 10,000 youths on Tech across Africa in 10 years.
                     <br/>
                     <br/>
                     At The Curve we ensure that after the completion of 5 months intensive training and six months internship, our trainee are fully equipped with knowledge required for their future careers.
