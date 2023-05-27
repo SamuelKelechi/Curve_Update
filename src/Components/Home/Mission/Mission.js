@@ -35,7 +35,7 @@ function Mission() {
                     <br/>
                     At The Curve we ensure that after the completion of 5 months intensive training and six months internship, our trainee are fully equipped with knowledge required for their future careers.
                 </p>
-                <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank' className='MobileLink'> <button className='MissionBtn'>Join cohort 2.0</button></a>
+                <button className='MissionBtn' onClick={handleOpen}>Join cohort 2.0</button>
             </div>
                         <>
                             <Modal
@@ -48,7 +48,7 @@ function Mission() {
                                 <Box>
                                 <p className='PopUp'> 
                                     <p style={{cursor:"pointer", width:'20px'}}><CancelIcon onClick={handleClose}/></p>
-                                    <span>COHORT 2 APPLICATION</span>: HURRAY! THE CURVE COHORT 2.0 APPLICATION WILL COMMENCE ON MONDAY 16 JANUARY 2023. KINDLY FOLLOW US ON SOCIAL MEDIA TO ALWAYS GET UPDATES. THANKS.
+                                    <span>COHORT 2 APPLICATION CLOSED</span>: Registration for The Curve cohort 2.0 is now closed. Shortlisted candidate will be contacted soon. KINDLY FOLLOW US ON SOCIAL MEDIA TO ALWAYS GET UPDATES. THANKS.
                                     <br/>
                                     <br/>
                                     <div className='SocialLinks'>

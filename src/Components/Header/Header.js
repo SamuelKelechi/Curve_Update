@@ -53,7 +53,7 @@ function Header() {
                     <Box>
                       <p className='PopUp'> 
                         <p style={{cursor:"pointer", width:'20px'}}><CancelIcon onClick={handleClose}/></p>
-                        <span>COHORT 2 APPLICATION</span>: HURRAY! THE CURVE COHORT 2.0 APPLICATION WILL COMMENCE ON MONDAY 16 JANUARY 2023. KINDLY FOLLOW US ON SOCIAL MEDIA TO ALWAYS GET UPDATES. THANKS.
+                        <span>COHORT 2 APPLICATION CLOSED</span>: Registration for The Curve cohort 2.0 is now closed. Shortlisted candidate will be contacted soon. KINDLY FOLLOW US ON SOCIAL MEDIA TO ALWAYS GET UPDATES. THANKS.
                         <br/>
                         <br/>
                         <div className='SocialLinks'>
@@ -69,7 +69,7 @@ function Header() {
                 </>
                 <div className='Buttons'>
                     <a href='https://join.slack.com/t/thecurveafrica/shared_invite/zt-1etfl6ukx-IXKNy9N26lMQj7YT3OZGLw' target='blank' style={{textDecoration:'none', color:'inherit'}}><button className='HeaderBtn1'>Join our community</button></a>
-                    <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
+                    <button className='HeaderBtn2' onClick={handleOpen}>Register for Free!</button>
                 </div>
             </div>
         </section>
